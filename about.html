@@ -25,6 +25,7 @@
                     <li><a href="./blog.html">blog</a></li>
                     <li><a href="./archive.html">archive</a></li>
                 </ul>
+                <button class="bars"><i class="fa-solid fa-bars"></i></button>
             </nav>
         </header>
 
@@ -122,5 +123,15 @@
                 <p>&copy; 2023 CTAL All rights reserved</p>
             </div>
         </footer>
+        <script>
+            document.querySelector('.bars').addEventListener('click', function () {
+                var navbar = document.querySelector('.navbar');
+                if (navbar.style.display === 'block') {
+                    navbar.style.display = 'none';
+                } else {
+                    navbar.style.display = 'block';
+                }
+            });
+        </script>
     </body>
 </html>
