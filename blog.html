@@ -10,19 +10,22 @@
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
             integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
             crossorigin="anonymous"
-            referrerpolicy="no-referrer"
-        />
+            referrerpolicy="no-referrer" />
     </head>
     <body>
         <header>
             <nav>
-                <h1><a href="./index.html">Computational Theory and Application Lab.</a></h1>
+                <h1>
+                    <a href="./index.html"
+                        >Computational Theory and Application Lab.</a
+                    >
+                </h1>
                 <ul class="navbar">
                     <li><a href="./index.html">home</a></li>
                     <li><a href="./about.html">about</a></li>
                     <li><a href="./publications.html">publications</a></li>
                     <li><a href="./people.html">people</a></li>
-                    <li><a href="./blog.html">blog</a></li>
+                    <li><a href="./blog.html">seminar</a></li>
                     <li><a href="./archive.html">archive</a></li>
                 </ul>
                 <button class="bars"><i class="fa-solid fa-bars"></i></button>
@@ -31,24 +34,95 @@
 
         <main>
             <div class="container">
-                blog
+                <h1>Seminar</h1>
+                <p class="year">2024</p>
+                <p class="year">2023</p>
+                <ol class="seminar_list">
+                    <li>
+                        Privacy-Preserving Machine Learning With Fully
+                        Homomorphic Encryption for Deep Neural Network
+                        <span class="speaker">정다훈</span>
+                    </li>
+                    <li>
+                        PLC-Sleuth: Detecting and Localizing PLC Intrusions
+                        Using Control Invariants
+                        <span class="speaker">백태산</span>
+                    </li>
+                    <li>
+                        Lions and contamination monotone clearings
+                        <span class="speaker">서민훈</span>
+                    </li>
+                    <li>
+                        Homomorphic Encryption for Arithmetic of Approximate
+                        Numbers
+                        <span class="speaker">정다훈</span>
+                    </li>
+                </ol>
+                <p class="year">2022</p>
+                <ol class="seminar_list">
+                    <li>
+                        Lumos: Identifying and Localizing Diverse Hidden IoT
+                        Devices in an Unfamiliar Environment
+                        <span class="speaker">백태산</span>
+                    </li>
+                    <li>
+                        No Perfect Triangle is Isosceles
+                        <span class="speaker">서민훈</span>
+                    </li>
+                    <li>
+                        Explainable Artificial Intelligence
+                        <span class="speaker">정다훈</span>
+                    </li>
+                    <li>
+                        Stealthy Tracking of Autonomous Vehicles with Cache Side
+                        Channels
+                        <span class="speaker">백태산</span>
+                    </li>
+                    <li>
+                        On the number of perfect triangles with a fixed angle
+                        <span class="speaker">서민훈</span>
+                    </li>
+                    <li>
+                        TPM-Based Post-Quantum Cryptography
+                        <span class="speaker">정다훈</span>
+                    </li>
+                    <li>
+                        A Remote Attack Tool Against Siemens S7-300 Controllers:
+                        A Practical Report
+                        <span class="speaker">백태산</span>
+                    </li>
+                    <li>
+                        Counting Circles without computing them
+                        <span class="speaker">서민훈</span>
+                    </li>
+                    <li>
+                        Attacklets to Test Anomaly Detectors for Critical
+                        Infrastructure
+                        <span class="speaker">정다훈</span>
+                    </li>
+                </ol>
             </div>
         </main>
 
         <footer>
             <div class="container">
-                <p>&copy; 2023 Computational Theory and Application Lab. All rights reserved</p>
+                <p>
+                    &copy; 2023 Computational Theory and Application Lab. All
+                    rights reserved
+                </p>
             </div>
         </footer>
         <script>
-            document.querySelector('.bars').addEventListener('click', function () {
-                var navbar = document.querySelector('.navbar');
-                if (navbar.style.display === 'block') {
-                    navbar.style.display = 'none';
-                } else {
-                    navbar.style.display = 'block';
-                }
-            });
+            document
+                .querySelector(".bars")
+                .addEventListener("click", function () {
+                    var navbar = document.querySelector(".navbar");
+                    if (navbar.style.display === "block") {
+                        navbar.style.display = "none";
+                    } else {
+                        navbar.style.display = "block";
+                    }
+                });
         </script>
     </body>
 </html>
