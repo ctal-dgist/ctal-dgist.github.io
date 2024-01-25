@@ -1,0 +1,268 @@
+{
+    "2024": [
+        {
+            "name": "김유신",
+            "date": "2024.01.27",
+            "paper": "An effective intrusion-resilient mechanism for programmable logic controllers against data tampering attacks"
+        },
+        {
+            "name": "김나현",
+            "date": "2024.01.27",
+            "paper": "Attacks and Countermeasures on Privacy-Preserving Biometric Authentication Schemes"
+        },
+        {
+            "name": "우은규",
+            "date": "2024.01.27",
+            "paper": "Bounded-Angle Minimum Spanning Trees"
+        },
+        {
+            "name": "배재형",
+            "date": "2024.01.27",
+            "paper": "A metaheuristic algorithm to solve satellite broadcast scheduling problem"
+        },
+        {
+            "name": "윤신이",
+            "date": "2024.01.27",
+            "paper": "Securing Liveness Detection for Voice Authentication via Pop Noises "
+        },
+        {
+            "name": "허원제",
+            "date": "2024.01.27",
+            "paper": "Generating Adversarial Examples Against Machine Learning-Based Intrusion Detector in Industrial Control Systems"
+        },
+        {
+            "name": "채척",
+            "date": "2024.01.27",
+            "paper": "Approximating Steiner trees and forests with minimum number of Steiner points"
+        }
+    ],
+    "2023": [
+        {
+            "paper": "Approximating Steiner trees and forests with minimum number of Steiner points",
+            "date": "2023.12.24",
+            "name": "채척"
+        },
+        {
+            "paper": "Light-weight federated learning-based anomaly detection for time-series data in industrial control systems",
+            "date": "2023.12.24",
+            "name": "김유신"
+        },
+        {
+            "paper": "Degrees of Second and Higher-Order Polynomials",
+            "date": "2023.12.24",
+            "name": "배재형"
+        },
+        {
+            "paper": "Honeyplc: A next-generation honeypot for industrial control systems",
+            "date": "2023.12.24",
+            "name": "백태산"
+        },
+        {
+            "paper": "Learning Graph Structures with Transformer for Multivariate Time Series Anomaly Detection in IoT",
+            "date": "2023.12.24",
+            "name": "윤신이"
+        },
+        {
+            "paper": "Spades: A New Genome Assembly Algorithm and Its Applications to Single Cell Sequencing",
+            "date": "2023.12.24",
+            "name": "허원제"
+        },
+        {
+            "paper": "Combination Algorithms for Steiner Tree Variants",
+            "date": "2023.12.24",
+            "name": "우은규"
+        },
+        {
+            "paper": "Simple Heuristics for Unit Disk Graphs",
+            "date": "2023.12.24",
+            "name": "채척"
+        },
+        {
+            "paper": "Anomaly Transformer: Time Series Anomaly Detection with Association Discrepancy",
+            "date": "2023.12.24",
+            "name": "김유신"
+        },
+        {
+            "paper": "Graph autoencoder-based unsupervised outlier detection",
+            "date": "2023.12.24",
+            "name": "곽민준"
+        },
+        {
+            "paper": "Attention-based Dropout Layer for Weakly supervised object localization",
+            "date": "2023.12.24",
+            "name": "권남혁"
+        },
+        {
+            "paper": "SWARMFLAWFINDER: Discovering and Exploiting Logic Flaws of Swarm Algorithms",
+            "date": "2023.12.24",
+            "name": "백태산"
+        },
+        {
+            "paper": "Secure connected domination and secure total domination in unit disk graphs and rectangle graphs",
+            "date": "2023.12.24",
+            "name": "배재형"
+        },
+        {
+            "paper": "Minimal relay node placement for ensuring network connectivity in mobile wireless sensor networks",
+            "date": "2023.12.24",
+            "name": "우은규"
+        },
+        {
+            "paper": "Total Domination in Geometric Unit Disk Graphs",
+            "date": "2023.12.24",
+            "name": "채척"
+        },
+        {
+            "paper": "MAD-GAN: Multivariate Anomaly Detection for Time Series Data with Generative Adversarial Networks",
+            "date": "2023.12.24",
+            "name": "김유신"
+        },
+        {
+            "paper": "Artificial Intelligence Meets Kinesthetic Intelligence: Mouse-based User Authentication based on Hybrid Human-Machine Learning",
+            "date": "2023.12.24",
+            "name": "권남혁"
+        },
+        {
+            "paper": "Blocking Delaunay Triangulations",
+            "date": "2023.12.24",
+            "name": "최민경"
+        },
+        {
+            "paper": "Approximation Algorithms for Data Broadcast in Wireless Networks",
+            "date": "2023.12.24",
+            "name": "배재형"
+        },
+        {
+            "paper": "A Stealthy False Command Injection Attack on Modbus based SCADA Systems",
+            "date": "2023.12.24",
+            "name": "백태산"
+        },
+        {
+            "paper": "Budgeted Steiner Networks: Three Terminals with Equal Path Weights",
+            "date": "2023.12.24",
+            "name": "채척"
+        },
+        {
+            "paper": "Multi-level Anomaly Detection in Industrial Control Systems via Package Signatures and LSTM Networks",
+            "date": "2023.12.24",
+            "name": "김유신"
+        },
+        {
+            "paper": "Anomaly Detection using Clustered Deep One-Class Classification",
+            "date": "2023.12.24",
+            "name": "정다훈"
+        },
+        {
+            "paper": "SCAPHY: Detecting Modern ICS Attacks by Correlating Behaviors in SCADA and PHYsical",
+            "date": "2023.12.24",
+            "name": "백태산"
+        },
+        {
+            "paper": "A novel particle swarm optimization for the Steiner tree problem in graphs",
+            "date": "2023.12.24",
+            "name": "채척"
+        },
+        {
+            "paper": "Enhancing The Reliability of Out-of-distribution Image Detection in Neural Networks",
+            "date": "2023.12.24",
+            "name": "김유신"
+        },
+        {
+            "paper": "Lions and contamination, Triangular grids, and Cheeger constants",
+            "date": "2023.12.24",
+            "name": "서민훈"
+        },
+        {
+            "paper": "Highly Comparative Feature-based Time-series classification",
+            "date": "2023.12.24",
+            "name": "정다훈"
+        },
+        {
+            "paper": "AttkFinder: Discovering Attack Vectors in PLC Programs using Information Flow Analysis",
+            "date": "2023.12.24",
+            "name": "백태산"
+        },
+        {
+            "paper": "Delaunay Graphs are Almost as Good as Complete Graphs",
+            "date": "2023.12.24",
+            "name": "채척"
+        },
+        {
+            "paper": "MMAuth: A continuous authentication framework on smartphones using multiple modalities",
+            "date": "2023.12.24",
+            "name": "김유신"
+        },
+        {
+            "paper": "Lions and contamination monotone clearings",
+            "date": "2023.12.24",
+            "name": "서민훈"
+        },
+        {
+            "paper": "Privacy-Preserving Machine Learning With Fully Homomorphic Encryption for Deep Neural Network",
+            "date": "2023.12.24",
+            "name": "정다훈"
+        },
+        {
+            "paper": "PLC-Sleuth: Detecting and Localizing PLC Intrusions Using Control Invariants",
+            "date": "2023.12.24",
+            "name": "백태산"
+        },
+        {
+            "paper": "Lions and contamination monotone clearings",
+            "date": "2023.12.24",
+            "name": "서민훈"
+        },
+        {
+            "paper": "Homomorphic Encryption for Arithmetic of Approximate Numbers",
+            "date": "2023.12.24",
+            "name": "정다훈"
+        }
+    ],
+    "2022": [
+        {
+            "paper": "Lumos: Identifying and Localizing Diverse Hidden IoT Devices in an Unfamiliar Environment",
+            "date": "2023.12.24",
+            "name": "백태산"
+        },
+        {
+            "paper": "No Perfect Triangle is Isosceles",
+            "date": "2023.12.24",
+            "name": "서민훈"
+        },
+        {
+            "paper": "Explainable Artificial Intelligence",
+            "date": "2023.12.24",
+            "name": "정다훈"
+        },
+        {
+            "paper": "Stealthy Tracking of Autonomous Vehicles with Cache Side Channels",
+            "date": "2023.12.24",
+            "name": "백태산"
+        },
+        {
+            "paper": "On the number of perfect triangles with a fixed angle",
+            "date": "2023.12.24",
+            "name": "서민훈"
+        },
+        {
+            "paper": "TPM-Based Post-Quantum Cryptography",
+            "date": "2023.12.24",
+            "name": "정다훈"
+        },
+        {
+            "paper": "A Remote Attack Tool Against Siemens S7-300 Controllers: A Practical Report",
+            "date": "2023.12.24",
+            "name": "백태산"
+        },
+        {
+            "paper": "Counting Circles without computing them",
+            "date": "2023.12.24",
+            "name": "서민훈"
+        },
+        {
+            "paper": "Attacklets to Test Anomaly Detectors for Critical Infrastructure",
+            "date": "2023.12.24",
+            "name": "정다훈"
+        }
+    ]
+}

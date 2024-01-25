@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300&display=swap");
 
 /* Reset some default styles */
 body,
@@ -8,8 +8,8 @@ p {
     padding: 0;
 }
 * {
-    font-family: 'Noto Sans KR', sans-serif;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Noto Sans KR", sans-serif;
+    /*font-family: "Open Sans", sans-serif;*/
     font-weight: 400;
     color: rgb(30, 31, 33);
 }
@@ -78,7 +78,6 @@ nav .bars {
     background-color: transparent;
     display: none;
 }
-
 
 main {
     margin-top: 100px;
@@ -214,6 +213,16 @@ main .container .people_box ul li {
     margin-bottom: 10px;
 }
 
+main .container .year {
+    color: black;
+    font-weight: bold;
+}
+
+main .container .seminar_list li {
+    color: black;
+    font-weight: lighter;
+    line-height: 1.5;
+}
 
 footer {
     bottom: 0;
@@ -231,11 +240,7 @@ footer .container p {
     font-size: 12px;
 }
 
-
-
-
-
-@media screen and (max-width: 767px) { 
+@media screen and (max-width: 767px) {
     nav {
         padding: 0 10px;
     }

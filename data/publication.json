@@ -1,0 +1,55 @@
+{
+    "International Journal": [
+        {
+            "author": "Shin D, Choi S",
+            "year": "2023",
+            "title": "An efficient 3-approximation algorithm for the Steiner tree problem with the minimum number of Steiner points and bounded edge length",
+            "journal": "PLoS ONE",
+            "volumn": "18(11): e0294353",
+            "doi": "https://doi.org/10.1371/journal.pone.0294353"
+        },
+        {
+            "author": "Shin D, Choi S",
+            "year": "2015",
+            "title": "Power control for data load balancing with coverage in dynamic femtocell networks",
+            "journal": "Wireless Networks",
+            "volumn": "",
+            "doi": "https://doi.org/10.1007/s11276-015-1022-0"
+        },
+        {
+            "author": "Lee, C., Shin, D., Bae, S. W., & Choi, S",
+            "year": "2013",
+            "title": "Best and worst-case coverage problems for arbitrary paths in wireless sensor networks",
+            "journal": "Ad Hoc Networks",
+            "volumn": "11(6), 1699–1714",
+            "doi": "https://doi.org/10.1016/j.adhoc.2013.03.005"
+        }
+    ],
+    "International Conference": [],
+    "Domestic": [
+        {
+            "author": "우은규, 채척, 신동훈",
+            "year": "2022",
+            "title": "STP-MSPBEL 근사 알고리즘을 통한 무선 센서 네트워크에서의 효율적인 릴레이 노드 배치 방법",
+            "journal": "한국정보과학회 학술발표논문집",
+            "volumn": "973-975",
+            "doi": "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11224308"
+        },
+        {
+            "author": "박경미, 신동훈, 김우년, 김신규",
+            "year": "2019",
+            "title": "산업용 제어기기의 통신 견고성 시험 방안 연구",
+            "journal": "한국정보보호학회",
+            "volumn": "29(5), 1099–1116",
+            "doi": "https://doi.org/10.13089/jkiisc.2019.29.5.1099"
+        },
+        {
+            "author": "신동훈, 최성희",
+            "year": "2015",
+            "title": "다이나믹 펨토셀 네트워크에서 커버리지와 데이터 부하 균형을 고려한 기지국의 파워 조절 분산 알고리즘",
+            "journal": "한국정보과학회",
+            "volumn": "22(2), 101–106",
+            "doi": "https://doi.org/10.5626/ktcp.2016.22.2.101"
+        }
+    ]
+}

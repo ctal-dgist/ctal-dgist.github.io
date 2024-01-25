@@ -13,24 +13,7 @@
             referrerpolicy="no-referrer" />
     </head>
     <body>
-        <header>
-            <nav>
-                <h1>
-                    <a href="./index.html"
-                        >Computational Theory and Application Lab.</a
-                    >
-                </h1>
-                <ul class="navbar">
-                    <li><a href="./index.html">home</a></li>
-                    <li><a href="./about.html">about</a></li>
-                    <li><a href="./publications.html">publications</a></li>
-                    <li><a href="./people.html">people</a></li>
-                    <li><a href="./blog.html">seminar</a></li>
-                    <li><a href="./archive.html">archive</a></li>
-                </ul>
-                <button class="bars"><i class="fa-solid fa-bars"></i></button>
-            </nav>
-        </header>
+        <script src="./js/header.js"></script>
 
         <main>
             <div class="container">
@@ -58,26 +41,6 @@
             </div>
         </main>
 
-        <footer>
-            <div class="container">
-                <p>
-                    &copy; 2023 Computational Theory and Application Lab. All
-                    rights reserved
-                </p>
-            </div>
-        </footer>
-
-        <script>
-            document
-                .querySelector(".bars")
-                .addEventListener("click", function () {
-                    var navbar = document.querySelector(".navbar");
-                    if (navbar.style.display === "block") {
-                        navbar.style.display = "none";
-                    } else {
-                        navbar.style.display = "block";
-                    }
-                });
-        </script>
+        <script src="./js/common.js"></script>
     </body>
 </html>
