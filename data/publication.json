@@ -28,6 +28,14 @@
     "International Conference": [],
     "Domestic": [
         {
+            "author": "권남혁, 김유신, 우은규, 정다훈, 채척, 신동훈",
+            "year": "2023",
+            "title": "산업제어시스템에서의 AI IDS 성능 향상을 위한 데이터 품질 연구 동향 및 제언",
+            "journal": "한국정보보호학회지",
+            "volumn": "33(6), 5-14",
+            "doi": "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11653410"
+        },
+        {
             "author": "우은규, 채척, 신동훈",
             "year": "2022",
             "title": "STP-MSPBEL 근사 알고리즘을 통한 무선 센서 네트워크에서의 효율적인 릴레이 노드 배치 방법",
