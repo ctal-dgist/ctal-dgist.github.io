@@ -20,27 +20,101 @@
                 <div class="lab_photo">
                     <img src="./assets/bg_sample.jpg" alt="CTAL" />
                 </div>
+                <div class="lab_intro">
+                    안녕하세요 CTAL입니다. 우리의 연구 관심 분야는 계산 이론과
+                    그 응용입니다. 계산이론(그래프이론, 계산기하학 등)을
+                    기반으로 효율적인 알고리즘을 설계하여 산업 제어 시스템의
+                    보안, 무선 네트워크의 효율성 등 실제 응용 분야의 문제를
+                    해결하는 것을 목표로 합니다.
+                    <br /><br />
+                    Hello, we are Computational Theory and Application Lab.,
+                    CTAL. Our research interests are the Theory of computation
+                    and its applications. We aim to solve the problems in
+                    real-world applications such as security of industrial
+                    control systems and efficiency of wireless networks by
+                    designing efficient algorithms based on computational
+                    theory(graph theory, computational geometry, etc.).
+                </div>
                 <div class="lab_category">
-                    <p>Theory of Computation</p>
-                    <p>Wireless Sensor Networks</p>
-                    <p>Security for ICS</p>
-                    <p>Critical Infrastructure Protection</p>
+                    <h1>Research Area</h1>
+                    <div class="research_area_container">
+                        <div class="research_area_box">
+                            <p>Theory of Computation</p>
+                            <img
+                                src="/assets/algorithm.png"
+                                alt="Theory of Computation" />
+                        </div>
+                        <div class="research_area_box">
+                            <p>Wireless Sensor Networks</p>
+                            <img
+                                src="/assets/sensor.png"
+                                alt="Wireless Sensor Networks" />
+                        </div>
+                        <div class="research_area_box">
+                            <p>Security for ICS</p>
+                            <img
+                                src="/assets/industry.png"
+                                alt="Security for ICS" />
+                        </div>
+                        <div class="research_area_box">
+                            <p>Critical Infrastructure Protection</p>
+                            <img
+                                src="/assets/ci.png"
+                                alt="Critical Infrastructure Protection" />
+                        </div>
+                    </div>
+                </div>
+                <div class="lab_news">
+                    <h1>Recent News</h1>
                 </div>
                 <div class="lab_contact">
-                    <a href="mailto:dshin@dgist.ac.kr">
-                        <i class="fa-solid fa-envelope"></i>dshin@dgist.ac.kr
-                    </a>
-                    <a href="tel:+82-53-785-6348" class="contact">
-                        <i class="fa-solid fa-square-phone"></i>+82-53-785-6348
-                    </a>
-                    <a href="https://maps.app.goo.gl/h8diK2sNkNAv4y5s9">
-                        <i class="fa-solid fa-location-dot"></i> DGIST E3 310,
-                        317
-                    </a>
+                    <h1>Contact</h1>
+                    <p>We are looking for students.</p>
+                    <div class="mail_box">
+                        <div class="mail_box_container">
+                            <input
+                                type="email"
+                                id="email"
+                                placeholder="Your Email" />
+                            <input type="text" id="title" placeholder="Title" />
+                            <textarea
+                                id="contents"
+                                placeholder="Contents"
+                                cols="30"
+                                rows="10"></textarea>
+                            <button id="sendEmailBtn">Send Email</button>
+                        </div>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d681.0833654386649!2d128.45254152160325!3d35.70661927338207!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x356f587a086a08df%3A0x8feff7c081d19e7c!2z7KCE6riw7KCE7J6Q7Lu07ZOo7YSw6rO17ZWZ6rO8IChFMyk!5e0!3m2!1sen!2skr!4v1706612268714!5m2!1sen!2skr"
+                            width="600"
+                            height="450"
+                            style="border: 0"
+                            allowfullscreen=""
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
                 </div>
             </div>
         </main>
 
         <script src="./js/common.js"></script>
+        <script>
+            document
+                .getElementById("sendEmailBtn")
+                .addEventListener("click", function () {
+                    var email = document.getElementById("email").value;
+                    var title = document.getElementById("title").value;
+                    var contents = document.getElementById("contents").value;
+                    var mailtoUrl =
+                        "mailto:dshin@dgist.ac.kr?subject=" +
+                        encodeURIComponent(title) +
+                        "&body=" +
+                        encodeURIComponent(contents) +
+                        "&cc=" +
+                        encodeURIComponent(email);
+
+                    window.location.href = mailtoUrl;
+                });
+        </script>
     </body>
 </html>
