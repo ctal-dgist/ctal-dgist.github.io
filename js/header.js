@@ -6,8 +6,12 @@ var h1 = document.createElement("h1");
 
 var h1Anchor = document.createElement("a");
 h1Anchor.href = "./index.html";
-h1Anchor.textContent = "Computational Theory and Application Lab.";
-
+const screenWidth = window.screen.width;
+if (screenWidth < 767) {
+    h1Anchor.textContent = "CTAL.";
+} else {
+    h1Anchor.textContent = "Computational Theory and Application Lab.";
+}
 h1.appendChild(h1Anchor);
 
 nav.appendChild(h1);
@@ -33,7 +37,6 @@ links.forEach(function (link) {
     ul.appendChild(li);
 });
 
-nav;
 nav.appendChild(ul);
 
 var button = document.createElement("button");

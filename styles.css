@@ -16,11 +16,12 @@ p {
 /* Style the header and navbar */
 header {
     padding: 10px 0;
-    border: 1px solid #e7e7e7;
+    margin: 0;
+    border-bottom: 1px solid #e7e7e7;
     background-color: #fff;
     position: fixed;
     top: 0;
-    width: 100%;
+    width: calc(100%);
 }
 nav {
     max-width: 1024px;
@@ -159,7 +160,7 @@ main .container .lab_contact p {
     margin-bottom: 20px;
 }
 main .container .lab_contact .mail_box {
-    width: 100%;
+    width: calc(100% - 40px);
     margin: 0 auto;
     padding: 20px;
     border-radius: 5px;
@@ -306,7 +307,12 @@ main .container .seminar_list li {
     font-weight: lighter;
     line-height: 1.5;
 }
-
+main .container .seminar_list li:hover {
+    font-weight: bold;
+}
+main .container .seminar_list li .speaker {
+    font-weight: inherit;
+}
 footer {
     bottom: 0;
     text-align: center;
@@ -324,7 +330,11 @@ footer .container p {
 }
 
 @media screen and (max-width: 767px) {
+    header {
+        width: 100%;
+    }
     nav {
+        width: calc(100% - 10px);
         padding: 0 10px;
     }
     .navbar {
@@ -339,7 +349,7 @@ footer .container p {
         margin: 0 auto;
     }
     .navbar h1 a {
-        font-size: 12px;
+        font-size: 8px;
     }
     .navbar li {
         display: block;
@@ -348,13 +358,42 @@ footer .container p {
         margin-bottom: 10px;
     }
     nav .bars {
+        /*button*/
         display: block;
+        position: relative;
+        margin: 0;
+        padding: 0;
+        top: 0px;
+        left: -15px;
     }
     main {
         margin-top: 60px;
     }
-    main .container .lab_contact {
-        flex-direction: column;
+    main .container .lab_category .research_area_container {
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-columns: 1fr;
+    }
+    main .container .lab_category .research_area_container .research_area_box {
+        height: 170px;
+    }
+    main
+        .container
+        .lab_category
+        .research_area_container
+        .research_area_box
+        img {
+        width: 100px;
+        height: 100px;
+    }
+    main .container .lab_contact .mail_box {
+        flex-direction: column-reverse;
+    }
+    main .container .lab_contact .mail_box .mail_box_container {
+        width: 100%;
+    }
+    main .container .lab_contact .mail_box iframe {
+        height: 100px;
+        width: 100%;
     }
     main .container .research_topic .odd,
     main .container .research_topic .even {
