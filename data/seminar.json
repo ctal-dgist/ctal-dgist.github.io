@@ -1,6 +1,11 @@
 {
     "2024": [
         {
+            "name": "허원제",
+            "data": "2024.02.02",
+            "paper": "LK-AKA: A lightweight location key-based authentication and key agreement protocol for S2S communication"
+        },
+        {
             "name": "김유신",
             "date": "2024.01.27",
             "paper": "An effective intrusion-resilient mechanism for programmable logic controllers against data tampering attacks"
