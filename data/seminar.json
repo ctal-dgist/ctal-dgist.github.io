@@ -1,6 +1,11 @@
 {
     "2024": [
         {
+            "name": "강승수",
+            "data": "2024.02.02",
+            "paper": "Low Latency Broadcast Scheduling for Battery-Free Wireless Networks Without Predetermined Structures"
+        },
+        {
             "name": "허원제",
             "data": "2024.02.02",
             "paper": "LK-AKA: A lightweight location key-based authentication and key agreement protocol for S2S communication"
