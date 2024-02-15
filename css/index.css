@@ -55,6 +55,39 @@ main .container .lab_news {
 main .container .lab_news h1 {
     font-weight: lighter;
 }
+main .container .lab_news ul {
+    list-style: none;
+    padding: 0;
+}
+main .container .lab_news ul li {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+main .container .lab_news ul li .date {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--third-dark);
+    padding: 5px;
+    border-radius: 10px;
+    width: 40px;
+    height: 40px;
+}
+main .container .lab_news ul li .date p {
+    padding: 0;
+    font-size: 12px;
+    color: var(--font-dark);
+    background-color: transparent;
+}
+main .container .lab_news ul li .content {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
+
 main .container .lab_contact {
     margin-top: 50px;
 }

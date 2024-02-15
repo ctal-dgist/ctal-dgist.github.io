@@ -5,13 +5,15 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>CTAL</title>
         <link rel="stylesheet" href="./css/index.css" />
-        <link rel="stylesheet" href="./css/common.css"/>
+        <link rel="stylesheet" href="./css/common.css" />
         <link
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
             integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
             crossorigin="anonymous"
-            referrerpolicy="no-referrer" />
+            referrerpolicy="no-referrer"
+        />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     </head>
     <body>
         <script src="./js/header.js"></script>
@@ -22,67 +24,48 @@
                     <img src="./assets/bg_sample.jpg" alt="CTAL" />
                 </div>
                 <div class="lab_intro">
-                    안녕하세요 CTAL입니다. 우리의 연구 관심 분야는 계산 이론과
-                    그 응용입니다. 계산이론(그래프이론, 계산기하학 등)을
-                    기반으로 효율적인 알고리즘을 설계하여 산업 제어 시스템의
-                    보안, 무선 네트워크의 효율성 등 실제 응용 분야의 문제를
-                    해결하는 것을 목표로 합니다.
+                    안녕하세요 CTAL입니다. 우리의 연구 관심 분야는 계산 이론과 그 응용입니다. 계산이론(그래프이론,
+                    계산기하학 등)을 기반으로 효율적인 알고리즘을 설계하여 산업 제어 시스템의 보안, 무선 네트워크의
+                    효율성 등 실제 응용 분야의 문제를 해결하는 것을 목표로 합니다.
                     <br /><br />
-                    Hello, we are Computational Theory and Application Lab.,
-                    CTAL. Our research interests are the Theory of computation
-                    and its applications. We aim to solve the problems in
-                    real-world applications such as security of industrial
-                    control systems and efficiency of wireless networks by
-                    designing efficient algorithms based on computational
-                    theory(graph theory, computational geometry, etc.).
+                    Hello, we are Computational Theory and Application Lab., CTAL. Our research interests are the Theory
+                    of computation and its applications. We aim to solve the problems in real-world applications such as
+                    security of industrial control systems and efficiency of wireless networks by designing efficient
+                    algorithms based on computational theory(graph theory, computational geometry, etc.).
                 </div>
                 <div class="lab_category">
                     <h1>Research Area</h1>
                     <div class="research_area_container">
                         <div class="research_area_box">
                             <p>Theory of Computation</p>
-                            <img
-                                src="/assets/algorithm.png"
-                                alt="Theory of Computation" />
+                            <img src="/assets/algorithm.png" alt="Theory of Computation" />
                         </div>
                         <div class="research_area_box">
                             <p>Wireless Sensor Networks</p>
-                            <img
-                                src="/assets/sensor.png"
-                                alt="Wireless Sensor Networks" />
+                            <img src="/assets/sensor.png" alt="Wireless Sensor Networks" />
                         </div>
                         <div class="research_area_box">
                             <p>Security for ICS</p>
-                            <img
-                                src="/assets/industry.png"
-                                alt="Security for ICS" />
+                            <img src="/assets/industry.png" alt="Security for ICS" />
                         </div>
                         <div class="research_area_box">
                             <p>Critical Infrastructure Protection</p>
-                            <img
-                                src="/assets/ci.png"
-                                alt="Critical Infrastructure Protection" />
+                            <img src="/assets/ci.png" alt="Critical Infrastructure Protection" />
                         </div>
                     </div>
                 </div>
                 <div class="lab_news">
                     <h1>Recent News</h1>
+                    <div id="newsList"></div>
                 </div>
                 <div class="lab_contact">
                     <h1>Contact</h1>
                     <p>We are looking for students.</p>
                     <div class="mail_box">
                         <div class="mail_box_container">
-                            <input
-                                type="email"
-                                id="email"
-                                placeholder="Your Email" />
+                            <input type="email" id="email" placeholder="Your Email" />
                             <input type="text" id="title" placeholder="Title" />
-                            <textarea
-                                id="contents"
-                                placeholder="Contents"
-                                cols="30"
-                                rows="10"></textarea>
+                            <textarea id="contents" placeholder="Contents" cols="30" rows="10"></textarea>
                             <button id="sendEmailBtn">Send Email</button>
                         </div>
                         <iframe
@@ -92,30 +75,29 @@
                             style="border: 0"
                             allowfullscreen=""
                             loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            referrerpolicy="no-referrer-when-downgrade"
+                        ></iframe>
                     </div>
                 </div>
             </div>
         </main>
-
+        <script src="./js/lab_news.js"></script>
         <script src="./js/common.js"></script>
         <script>
-            document
-                .getElementById("sendEmailBtn")
-                .addEventListener("click", function () {
-                    var email = document.getElementById("email").value;
-                    var title = document.getElementById("title").value;
-                    var contents = document.getElementById("contents").value;
-                    var mailtoUrl =
-                        "mailto:dshin@dgist.ac.kr?subject=" +
-                        encodeURIComponent(title) +
-                        "&body=" +
-                        encodeURIComponent(contents) +
-                        "&cc=" +
-                        encodeURIComponent(email);
+            document.getElementById('sendEmailBtn').addEventListener('click', function () {
+                var email = document.getElementById('email').value;
+                var title = document.getElementById('title').value;
+                var contents = document.getElementById('contents').value;
+                var mailtoUrl =
+                    'mailto:dshin@dgist.ac.kr?subject=' +
+                    encodeURIComponent(title) +
+                    '&body=' +
+                    encodeURIComponent(contents) +
+                    '&cc=' +
+                    encodeURIComponent(email);
 
-                    window.location.href = mailtoUrl;
-                });
+                window.location.href = mailtoUrl;
+            });
         </script>
     </body>
 </html>
