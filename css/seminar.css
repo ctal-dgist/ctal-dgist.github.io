@@ -1,0 +1,15 @@
+main .container .year {
+    color: black;
+    font-weight: bold;
+}
+main .container .seminar_list li {
+    color: black;
+    font-weight: lighter;
+    line-height: 1.5;
+}
+main .container .seminar_list li:hover {
+    font-weight: bold;
+}
+main .container .seminar_list li .speaker {
+    font-weight: inherit;
+}

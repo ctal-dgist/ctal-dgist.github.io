@@ -1,0 +1,54 @@
+main .container .research_header {
+    margin-bottom: 40px;
+}
+main .container .research_header h1 {
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: rgb(30, 31, 33);
+}
+
+main .container .research_topic {
+    margin-bottom: 40px;
+}
+main .container .research_topic h1 {
+    font-size: 23px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: rgb(30, 31, 33);
+}
+main .container .research_topic .odd {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+main .container .research_topic .even {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 20px;
+}
+main .container .research_topic .img_container {
+    width: 50%;
+}
+main .container .research_topic .img_container img {
+    width: 100%;
+    object-fit: cover;
+}
+main .container .research_topic .content_container {
+    max-width: 50%;
+}
+main .container .research_topic .content_container p {
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 767px) {
+    main .container .research_topic .odd,
+    main .container .research_topic .even {
+        flex-direction: column;
+    }
+    main .container .research_topic .img_container,
+    main .container .research_topic .content_container {
+        max-width: 100%;
+        width: 100%;
+    }
+}

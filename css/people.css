@@ -1,0 +1,9 @@
+main .container .people_box {
+    margin-bottom: 20px;
+}
+main .container .people_box h1 {
+    font-size: 23px;
+}
+main .container .people_box ul li {
+    margin-bottom: 10px;
+}
