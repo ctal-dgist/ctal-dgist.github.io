@@ -5,13 +5,15 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>CTAL</title>
         <link rel="stylesheet" href="./css/people.css" />
-        <link rel="stylesheet" href="./css/common.css"/>
+        <link rel="stylesheet" href="./css/common.css" />
         <link
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
             integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
             crossorigin="anonymous"
-            referrerpolicy="no-referrer" />
+            referrerpolicy="no-referrer"
+        />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     </head>
     <body>
         <script src="./js/header.js"></script>
@@ -20,47 +22,28 @@
             <div class="container">
                 <div class="people_box">
                     <h1>Professor</h1>
-                    <ul>
-                        <li>신동훈 (Donghoon Shin)</li>
-                    </ul>
+                    <div id="professor"></div>
                 </div>
                 <div class="people_box">
                     <h1>Ph.D Students</h1>
-                    <ul>
-                        <li>백태산 (Taesan Baek)</li>
-                        <li>김유신 (Yooshin Kim)</li>
-                        <li>채척 (Chuck Chae)</li>
-                        <li>우은규 (Eungyu Woo)</li>
-                        <li>조영준 (Youngjun Cho)</li>
-                    </ul>
+                    <div id="Ph"></div>
                 </div>
                 <div class="people_box">
                     <h1>MS Students</h1>
-                    <ul>
-                        <li>허원제 (Wonje Heo)</li>
-                    </ul>
+                    <div id="MS"></div>
                 </div>
                 <div class="people_box">
                     <h1>Research Intern</h1>
-                    <ul>
-                        <li>배재형 (Jaehyeong Bae)</li>
-                        <li>윤신이 (Shinee Youn)</li>
-                        <li>김나현 (Nahyeon Kim)</li>
-                        <li>강승수 (Seungsu Kang)</li>
-                    </ul>
+                    <div id="Intern"></div>
                 </div>
                 <div class="people_box">
                     <h1>Alumni</h1>
-                    <ul>
-                        <li>권남혁 (Namhyuk Kwon)</li>
-                        <li>곽민준 (Minjun Kwak)</li>
-                        <li>서민훈 (Minhoon Seo)</li>
-                        <li>정다훈 (Dahoon Jeong)</li>
-                    </ul>
+                    <div id="Alumni"></div>
                 </div>
             </div>
         </main>
 
         <script src="./js/common.js"></script>
+        <script src="./js/people.js"></script>
     </body>
 </html>

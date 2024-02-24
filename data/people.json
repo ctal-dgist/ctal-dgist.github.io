@@ -1,0 +1,92 @@
+{
+    "Professor": [
+        {
+            "name": "신동훈",
+            "name_eng": "Donghoon Shin",
+            "other": "."
+        }
+    ],
+    "Ph.D": [
+        {
+            "name": "백태산",
+            "name_eng": "Taesan Baek",
+            "other": "."
+        },
+        {
+            "name": "김유신",
+            "name_eng": "Yooshin Kim",
+            "other": "."
+        },
+        {
+            "name": "채척",
+            "name_eng": "Chuck Chae",
+            "other": "."
+        },
+        {
+            "name": "우은규",
+            "name_eng": "Eungyu Woo",
+            "other": "."
+        },
+        {
+            "name": "조영준",
+            "name_eng": "Youngjun Cho",
+            "other": "."
+        }
+    ],
+    "MS": [
+        {
+            "name": "허원제",
+            "name_eng": "Wonje Heo",
+            "other": "."
+        }
+    ],
+    "Intern": [
+        {
+            "name": "윤신이",
+            "name_eng": "Shinee Youn",
+            "other": "."
+        },
+        {
+            "name": "김나현",
+            "name_eng": "Nahyeon Kim",
+            "other": "."
+        },
+        {
+            "name": "강승수",
+            "name_eng": "Seungsu Kang",
+            "other": "."
+        }
+    ],
+    "Alumni": [
+        {
+            "name": "서민훈",
+            "name_eng": "Minhoon Seo",
+            "position": "MS",
+            "current": ""
+        },
+        {
+            "name": "정다훈",
+            "name_eng": "Dahoon Jeong",
+            "position": "MS",
+            "current": ""
+        },
+        {
+            "name": "배재형",
+            "name_eng": "Jaehyeong Bae",
+            "position": "Research Intern",
+            "current": "Military"
+        },
+        {
+            "name": "권남혁",
+            "name_eng": "Namhyuk Kwon",
+            "position": "Research Intern",
+            "current": "Military"
+        },
+        {
+            "name": "곽민준",
+            "name_eng": "Minjun Kwak",
+            "position": "Research Intern",
+            "current": "Military"
+        }
+    ]
+}
