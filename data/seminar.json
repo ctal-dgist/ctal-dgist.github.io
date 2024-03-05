@@ -1,6 +1,16 @@
 {
     "2024": [
         {
+            "name": "우은규",
+            "date": "2024.03.08",
+            "paper": "TBD"
+        },
+        {
+            "name": "강승수",
+            "date": "2024.03.08",
+            "paper": "TBD"
+        },
+        {
             "name": "강승수",
             "date": "2024.02.02",
             "paper": "Low Latency Broadcast Scheduling for Battery-Free Wireless Networks Without Predetermined Structures"
