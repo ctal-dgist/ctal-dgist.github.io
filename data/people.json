@@ -8,11 +8,6 @@
     ],
     "Ph.D": [
         {
-            "name": "백태산",
-            "name_eng": "Taesan Baek",
-            "other": "."
-        },
-        {
             "name": "김유신",
             "name_eng": "Yooshin Kim",
             "other": "."
@@ -58,6 +53,12 @@
         }
     ],
     "Alumni": [
+        {
+            "name": "백태산",
+            "name_eng": "Taesan Baek",
+            "position": "Integrated",
+            "current": "Leave of absence"
+        },
         {
             "name": "서민훈",
             "name_eng": "Minhoon Seo",
