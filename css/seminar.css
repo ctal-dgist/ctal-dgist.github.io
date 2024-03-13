@@ -30,6 +30,13 @@ main .container .seminar_list li:hover {
 main .container .seminar_list li .title {
     word-break: keep-all;
 }
+main .container .seminar_list li .title .link {
+    text-decoration: none;
+    color: gray;
+}
+main .container .seminar_list li .title .link:hover {
+    color: palevioletred;
+}
 
 @media screen and (max-width: 767px) {
     main .container .seminar_list {

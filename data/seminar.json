@@ -1,6 +1,18 @@
 {
     "2024": [
         {
+            "name": "허원제",
+            "date": "2024.03.15",
+            "paper": "A hypergraph based Kohonen map for detecting intrusions over cyber-physical systems traffic",
+            "link": "https://doi.org/10.1016/j.future.2021.02.001"
+        },
+        {
+            "name": "김나현",
+            "date": "2024.03.15",
+            "paper": "Recurrent Convolutional Structures for Audio Spoof and Video Deepfake Detection",
+            "link": "https://doi.org/10.1109/JSTSP.2020.2999185"
+        },
+        {
             "name": "우은규",
             "date": "2024.03.08",
             "paper": "Burning Number for the Points in the Plane. Canadian Conference on Computational Geometry"

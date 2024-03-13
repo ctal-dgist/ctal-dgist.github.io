@@ -27,21 +27,42 @@ $(function () {
                         (new Date(f.date) - new Date(currentDate)) / oneDay
                     );
                     const isthisweek = diffInDays >= 0 && diffInDays < 7;
+
+                    let url = f.link ? new URL(f.link) : null;
                     if (isthisweek) {
                         html +=
                             "<li class='thisweek'>" +
                             "<p class='title'>" +
-                            f.paper +
+                            f.paper;
+
+                        if (url) {
+                            html +=
+                                "<a class='link' href='" +
+                                url +
+                                "'> " +
+                                "(link)" +
+                                "</a>";
+                        }
+
+                        html +=
                             "</p>" +
                             "<p class='speaker'> " +
                             f.name +
                             "</p>" +
                             "</li>\n";
                     } else {
+                        html += "<li>" + "<p class='title'>" + f.paper;
+
+                        if (url) {
+                            html +=
+                                "<a class='link' href='" +
+                                url +
+                                "'> " +
+                                "(link)" +
+                                "</a>";
+                        }
+
                         html +=
-                            "<li>" +
-                            "<p class='title'>" +
-                            f.paper +
                             "</p>" +
                             "<p class='speaker'> " +
                             f.name +
