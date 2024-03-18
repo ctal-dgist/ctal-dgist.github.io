@@ -11,16 +11,19 @@
         {
             "name": "김유신",
             "name_eng": "Yooshin Kim",
+            "photo": "Yooshin_Kim.jpg",
             "other": "."
         },
         {
             "name": "채척",
             "name_eng": "Chuck Chae",
+            "photo": "Chuck_Chae.jpg",
             "other": "."
         },
         {
             "name": "우은규",
             "name_eng": "Eungyu Woo",
+            "photo": "Eunkyu_Woo.jpg",
             "other": "."
         },
         {
@@ -33,6 +36,7 @@
         {
             "name": "허원제",
             "name_eng": "Wonje Heo",
+            "photo": "Wonje_Heo.jpg",
             "other": "."
         }
     ],
@@ -40,6 +44,7 @@
         {
             "name": "윤신이",
             "name_eng": "Shinee Youn",
+            "photo": "Shinee_Young.jpg",
             "other": "."
         },
         {
@@ -50,6 +55,7 @@
         {
             "name": "강승수",
             "name_eng": "Seungsu Kang",
+            "photo": "Seungsu_Kang.jpg",
             "other": "."
         }
     ],
