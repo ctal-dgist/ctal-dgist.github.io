@@ -1,6 +1,18 @@
 {
   "2024": [
     {
+      "name": "허원제",
+      "date": "2024.05.03",
+      "paper": "Nominality Score Conditioned Time Series Anomaly Detection by Point/Sequential Reconstruction",
+      "link": "https://doi.org/10.48550/arXiv.2310.15416"
+    },
+    {
+      "name": "강승수",
+      "date": "2024.05.03",
+      "paper": "Scheduling data broadcast in asymmetric communication environments",
+      "link": "https://doi.org/10.1023/A:1019142809816"
+    },
+    {
       "name": "김유신",
       "date": "2024.03.29",
       "paper": "Lightweight Privacy-Preserving Scheme Using Homomorphic Encryption in Industrial Internet of Things",
