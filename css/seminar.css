@@ -1,3 +1,29 @@
+main .container h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+main .container #searchBox {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid rgb(218, 211, 211);
+}
+main .container #searchInput {
+  width: 100%;
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+main .container #searchInput:focus {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #ccc;
+  border-radius: 0px;
+}
+main .container #searchInput::placeholder {
+  color: #aaa;
+}
+
 main .container #seminarList {
   margin: 0;
   padding: 0;
@@ -11,7 +37,6 @@ main .container #seminarList .seminar_card {
   margin-bottom: 1em;
   align-items: stretch;
   min-height: 4em;
-
   border-bottom: 1px solid rgb(218, 211, 211);
 }
 main .container #seminarList .seminar_card .date {
