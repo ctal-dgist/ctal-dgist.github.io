@@ -28,7 +28,6 @@ $(function () {
           );
           const isthisweek = diffInDays >= 0 && diffInDays < 7;
 
-          console.log(f.link);
           let url = f.link ? new URL(f.link) : null;
           if (isthisweek) {
             html += "<li class='thisweek'>" + "<p class='title'>" + f.paper;
