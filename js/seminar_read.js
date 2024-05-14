@@ -37,7 +37,8 @@ $(function () {
         // 년도 내림차순 정렬
         data[year].forEach((seminar) => {
           let className = "seminar_card";
-          let seminarDate = new Date(seminar.date);
+          let tmpDate = seminar.date.replace(/\./g, "-");
+          let seminarDate = new Date(tmpDate);
           let isthisweek = isThisWeek(seminarDate);
 
           if (isthisweek) {
