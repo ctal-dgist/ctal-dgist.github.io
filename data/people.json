@@ -1,100 +1,102 @@
 {
-    "Professor": [
-        {
-            "name": "신동훈",
-            "name_eng": "Donghoon Shin",
-            "photo": "Donghoon_Shin.jpg",
-            "other": "."
-        }
-    ],
-    "Ph.D": [
-        {
-            "name": "김유신",
-            "name_eng": "Yooshin Kim",
-            "photo": "Yooshin_Kim.jpg",
-            "other": "."
-        },
-        {
-            "name": "채척",
-            "name_eng": "Chuck Chae",
-            "photo": "Chuck_Chae.jpg",
-            "other": "."
-        },
-        {
-            "name": "우은규",
-            "name_eng": "Eungyu Woo",
-            "photo": "Eunkyu_Woo.jpg",
-            "other": "."
-        },
-        {
-            "name": "조영준",
-            "name_eng": "Youngjun Cho",
-            "other": "."
-        }
-    ],
-    "MS": [
-        {
-            "name": "허원제",
-            "name_eng": "Wonje Heo",
-            "photo": "Wonje_Heo.jpg",
-            "other": "."
-        }
-    ],
-    "Intern": [
-        {
-            "name": "윤신이",
-            "name_eng": "Shinee Youn",
-            "photo": "Shinee_Young.jpg",
-            "other": "."
-        },
-        {
-            "name": "김나현",
-            "name_eng": "Nahyeon Kim",
-            "other": "."
-        },
-        {
-            "name": "강승수",
-            "name_eng": "Seungsu Kang",
-            "photo": "Seungsu_Kang.jpg",
-            "other": "."
-        }
-    ],
-    "Alumni": [
-        {
-            "name": "백태산",
-            "name_eng": "Taesan Baek",
-            "position": "Integrated",
-            "current": "Leave of absence"
-        },
-        {
-            "name": "서민훈",
-            "name_eng": "Minhoon Seo",
-            "position": "Master",
-            "current": ""
-        },
-        {
-            "name": "정다훈",
-            "name_eng": "Dahoon Jeong",
-            "position": "Master",
-            "current": ""
-        },
-        {
-            "name": "배재형",
-            "name_eng": "Jaehyeong Bae",
-            "position": "Research Intern",
-            "current": "Military"
-        },
-        {
-            "name": "권남혁",
-            "name_eng": "Namhyuk Kwon",
-            "position": "Research Intern",
-            "current": "Military"
-        },
-        {
-            "name": "곽민준",
-            "name_eng": "Minjun Kwak",
-            "position": "Research Intern",
-            "current": "Military"
-        }
-    ]
+  "Professor": [
+    {
+      "name": "신동훈",
+      "name_eng": "Donghoon Shin",
+      "photo": "Donghoon_Shin.jpg",
+      "other": "."
+    }
+  ],
+  "Ph.D": [
+    {
+      "name": "김유신",
+      "name_eng": "Yooshin Kim",
+      "photo": "Yooshin_Kim.jpg",
+      "blog": "https://ushin20-skin.tistory.com/",
+      "personal": "https://ushin20.github.io/",
+      "other": "."
+    },
+    {
+      "name": "채척",
+      "name_eng": "Chuck Chae",
+      "photo": "Chuck_Chae.jpg",
+      "other": "."
+    },
+    {
+      "name": "우은규",
+      "name_eng": "Eungyu Woo",
+      "photo": "Eunkyu_Woo.jpg",
+      "other": "."
+    },
+    {
+      "name": "조영준",
+      "name_eng": "Youngjun Cho",
+      "other": "."
+    }
+  ],
+  "MS": [
+    {
+      "name": "허원제",
+      "name_eng": "Wonje Heo",
+      "photo": "Wonje_Heo.jpg",
+      "other": "."
+    }
+  ],
+  "Intern": [
+    {
+      "name": "윤신이",
+      "name_eng": "Shinee Youn",
+      "photo": "Shinee_Young.jpg",
+      "other": "."
+    },
+    {
+      "name": "김나현",
+      "name_eng": "Nahyeon Kim",
+      "other": "."
+    },
+    {
+      "name": "강승수",
+      "name_eng": "Seungsu Kang",
+      "photo": "Seungsu_Kang.jpg",
+      "other": "."
+    }
+  ],
+  "Alumni": [
+    {
+      "name": "백태산",
+      "name_eng": "Taesan Baek",
+      "position": "Integrated",
+      "current": "Leave of absence"
+    },
+    {
+      "name": "서민훈",
+      "name_eng": "Minhoon Seo",
+      "position": "Master",
+      "current": ""
+    },
+    {
+      "name": "정다훈",
+      "name_eng": "Dahoon Jeong",
+      "position": "Master",
+      "current": "SAMSUNG"
+    },
+    {
+      "name": "배재형",
+      "name_eng": "Jaehyeong Bae",
+      "position": "Research Intern",
+      "current": ""
+    },
+    {
+      "name": "권남혁",
+      "name_eng": "Namhyuk Kwon",
+      "position": "Research Intern",
+      "current": ""
+    },
+    {
+      "name": "곽민준",
+      "name_eng": "Minjun Kwak",
+      "position": "Research Intern",
+      "current": ""
+    }
+  ]
 }

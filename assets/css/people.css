@@ -1,0 +1,70 @@
+/* Main container with maximum width and centered alignment */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Styling for each section of people (professor, PhD, MS, etc.) */
+main .container .people_box {
+  margin-bottom: 30px;
+}
+
+/* Section headers */
+main .container .people_box h1 {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+main .container .people_box .person {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+main .container .people_box .person img {
+  width: 150px; /* Width of the image */
+  height: 180px; /* Height of the image */
+  border-radius: 5px; /* Rounded corners */
+  object-fit: cover; /* Ensure the image covers the area without stretching */
+}
+
+/* Styling for text container within each person entry */
+.person-info {
+  display: flex;
+  flex-direction: column; /* Stack text vertically */
+  gap: 5px; /* Small gap between text items */
+  font-size: 14px;
+}
+
+/* Styling for paragraphs within the text container */
+.person-info p {
+  margin: 0; /* Remove default margins */
+  margin-top: 10px;
+}
+
+/* Styling for links within the text container */
+.person-info a {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+.person-info a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+/* Responsive adjustments for smaller screens */
+@media screen and (max-width: 767px) {
+  /* Adjust the person entry layout to be vertical on small screens */
+  main .container .people_box ul li {
+    flex-direction: column; /* Stack image and text vertically */
+    align-items: center; /* Center align items */
+  }
+
+  /* Adjust the image size for smaller screens */
+  main .container .people_box ul li img {
+    width: 120px; /* Smaller width */
+    height: 150px; /* Smaller height */
+  }
+}

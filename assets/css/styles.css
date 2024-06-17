@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Noto+Serif+KR:wght@200..900&display=swap");
+
+::selection {
+  background-color: rgb(70, 71, 73);
+  color: white;
+}
+
+::-moz-selection {
+  background-color: rgb(70, 71, 73);
+  color: white;
+}
+
+body {
+  margin: 0;
+  font-family: "Noto Serif KR", serif; /*font-family: "Inter", sans-serif;*/
+  background-color: #fff;
+  color: #333;
+}
+
+header {
+  margin-top: 25px;
+  font-family: "Inter", sans-serif;
+  padding: 20px 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: rgb(70, 71, 73);
+  font-weight: 400;
+  font-size: 12px;
+  padding-bottom: 5px;
+  transition: color 0.3s ease-in-out, border-bottom 0.3s ease-in-out;
+}
+
+nav ul li a.active,
+nav ul li a:hover {
+  color: black;
+  border-bottom: 1px solid #000;
+}
+
+footer {
+  height: 200px;
+  color: black;
+  font-size: 12px;
+  text-align: center;
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

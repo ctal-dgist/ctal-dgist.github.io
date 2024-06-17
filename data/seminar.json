@@ -1,6 +1,12 @@
 {
   "2024": [
     {
+      "name": "우은규",
+      "date": "2024.05.24",
+      "paper": "On-line Steiner Tree in the Euclidean Plane",
+      "link": "https://doi.org/10.1007/BF02573969"
+    },
+    {
       "name": "김유신",
       "date": "2024.05.17",
       "paper": "Intrusion Detection System Based on In-Depth Understandings of Industrial Control Logic",

@@ -1,54 +1,54 @@
+// 현재 페이지의 title을 가져옵니다.
+var currentTitle = document.title;
+
+// Create header element
 var header = document.createElement("header");
 
+// Create nav element
 var nav = document.createElement("nav");
 
-var h1 = document.createElement("h1");
-
-var h1Anchor = document.createElement("a");
-h1Anchor.href = "./index.html";
-const screenWidth = window.screen.width;
-if (screenWidth < 767) {
-    h1Anchor.textContent = "CTAL.";
-} else {
-    h1Anchor.textContent = "Computational Theory and Application Lab.";
-}
-h1.appendChild(h1Anchor);
-
-nav.appendChild(h1);
-
+// Create ul element to hold the navigation links
 var ul = document.createElement("ul");
-ul.className = "navbar";
 
+// Array of link texts and hrefs
 var links = [
-    { text: "home", href: "./index.html" },
-    { text: "about", href: "./about.html" },
-    { text: "publications", href: "./publications.html" },
-    { text: "people", href: "./people.html" },
-    { text: "seminar", href: "./blog.html" },
-    { text: "archive", href: "./archive.html" },
+  { text: "Home", href: "./index.html" },
+  { text: "About", href: "./about.html" },
+  { text: "Publication", href: "./publication.html" },
+  { text: "Project", href: "./project.html" },
+  { text: "People", href: "./people.html" },
+  { text: "Seminar", href: "./seminar.html" },
+  { text: "Contact", href: "./contact.html" },
 ];
 
+// Loop through the links array to create li and a elements
 links.forEach(function (link) {
-    var li = document.createElement("li");
-    var a = document.createElement("a");
-    a.href = link.href;
-    a.textContent = link.text;
-    li.appendChild(a);
-    ul.appendChild(li);
+  var li = document.createElement("li");
+  var a = document.createElement("a");
+
+  // Set the href and text for the anchor element
+  a.href = link.href;
+  a.textContent = link.text;
+
+  // Check if the link text matches the current page title
+  if (("CTAL" === currentTitle) & (link.text === "Home")) {
+    a.className = "active";
+  } else if (link.text === currentTitle) {
+    a.className = "active";
+  }
+
+  // Append the anchor to the list item
+  li.appendChild(a);
+
+  // Append the list item to the unordered list
+  ul.appendChild(li);
 });
 
+// Append the ul to the nav element
 nav.appendChild(ul);
 
-var button = document.createElement("button");
-button.className = "bars";
-
-var i = document.createElement("i");
-i.className = "fa-solid fa-bars";
-
-button.appendChild(i);
-
-nav.appendChild(button);
-
+// Append the nav to the header element
 header.appendChild(nav);
 
+// Finally, append the header to the body
 document.body.appendChild(header);

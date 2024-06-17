@@ -1,7 +1,11 @@
+main {
+  max-width: 1048px;
+  margin: 0 auto;
+}
+
 main .container h1 {
   font-family: "Times New Roman", Times, serif;
-  font-weight: bold;
-  padding-top: 10%;
+  font-weight: 400;
 }
 main .container #searchBox {
   margin-top: 15px;
