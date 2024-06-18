@@ -78,6 +78,7 @@ footer {
     display: block;
     position: relative;
     left: 20px;
+    width: fit-content;
   }
   header::after {
     display: block;
