@@ -3,6 +3,12 @@ main {
   margin: 0 auto;
 }
 
+main .container {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
 main .container h1 {
   font-size: 32px;
   font-weight: 400;
@@ -49,4 +55,10 @@ main .container .publication_type .paper_list li a {
 }
 main .container .publication_type .paper_list li a:hover {
   text-decoration: line-through;
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    padding: 0 20px;
+  }
 }

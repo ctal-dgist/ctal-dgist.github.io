@@ -22,6 +22,17 @@ header {
   font-family: "Inter", sans-serif;
   padding: 20px 0;
 }
+header::before {
+  content: "\f550"; /* Unicode for fa-bars-staggered icon */
+  font-family: "Font Awesome 6 Free"; /* FontAwesome family */
+  font-weight: 900; /* FontAwesome style */
+  display: none; /* Hidden by default */
+}
+header::after {
+  content: "CTAL."; /* 추가할 텍스트 */
+  display: none; /* 숨기기 */
+  font-family: "Noto Serif KR", serif;
+}
 
 nav ul {
   list-style: none;
@@ -60,4 +71,38 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+@media screen and (max-width: 767px) {
+  header::before {
+    display: block;
+    position: relative;
+    left: 20px;
+  }
+  header::after {
+    display: block;
+    position: relative;
+    left: 43%;
+    top: -1em;
+    width: fit-content;
+  }
+  header ul {
+    display: none;
+  }
+  header ul.show {
+    display: block; /* "show" 클래스가 추가되면 보여줌 */
+    position: absolute;
+    top: 60px; /* 필요에 따라 위치 조정 */
+    background: white;
+    width: 100%;
+    padding: 10px;
+  }
+  header ul.show li {
+    margin-bottom: 7px;
+  }
+  footer {
+    height: 100px;
+    width: 90%;
+    margin: 0 auto;
+  }
 }

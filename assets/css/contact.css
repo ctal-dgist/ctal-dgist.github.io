@@ -37,3 +37,13 @@ p {
 .contact-icon a:hover {
   text-decoration: underline; /* Optionally adds underline on hover */
 }
+
+@media screen and (max-width: 767px) {
+  main .container {
+    padding: 0 20px;
+  }
+
+  main .container h1 {
+    font-size: 20vw;
+  }
+}

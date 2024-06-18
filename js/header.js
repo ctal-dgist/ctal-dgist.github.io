@@ -52,3 +52,17 @@ header.appendChild(nav);
 
 // Finally, append the header to the body
 document.body.appendChild(header);
+
+// 버튼 클릭 이벤트 추가
+document.addEventListener("DOMContentLoaded", function () {
+  var header = document.querySelector("header");
+  var ul = document.querySelector("header ul");
+
+  // Header의 ::before 가상 요소를 클릭하는 이벤트 핸들러 추가
+  header.addEventListener("click", function (event) {
+    if (window.getComputedStyle(header, "::before").display !== "none") {
+      // ul의 "show" 클래스를 토글하여 보이기/숨기기
+      ul.classList.toggle("show");
+    }
+  });
+});

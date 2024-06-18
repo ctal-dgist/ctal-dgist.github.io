@@ -11,8 +11,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
       integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
       crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
+      referrerpolicy="no-referrer" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   </head>
   <body>
@@ -20,61 +19,67 @@
 
     <main>
       <section class="intro">
-        <h1>Computational Theory and Application LAB.</h1>
+        <div class="row">
+          <h1>Computational Theory and Application LAB.</h1>
+        </div>
       </section>
 
       <section class="research-area">
-        <h2>Research Area</h2>
-        <div class="container">
-          <div class="research-grid">
-            <div class="research-item">
-              <p>Theory of Computation</p>
-              <img
-                src="./assets/photo_index/theory_of_computation.webp"
-                alt="Theory of Computation"
-              />
+        <div class="row">
+          <h2>Research Area</h2>
+          <div class="container">
+            <div class="research-grid">
+              <div class="research-item">
+                <p>Theory of Computation</p>
+                <img
+                  src="./assets/photo_index/theory_of_computation.webp"
+                  alt="Theory of Computation" />
+              </div>
+              <div class="research-item">
+                <p>Security for ICS</p>
+                <img
+                  src="./assets/photo_index/security_for_ics.webp"
+                  alt="Security for ICS" />
+              </div>
+              <div class="research-item">
+                <p>Wireless Sensor Networks</p>
+                <img
+                  src="./assets/photo_index/wireless_network.webp"
+                  alt="Wireless Sensor Networks" />
+              </div>
+              <div class="research-item">
+                <p>Critical Infrastructure Protection</p>
+                <img
+                  src="./assets/photo_index/ci_protection.webp"
+                  alt="Critical Infrastructure Protection" />
+              </div>
             </div>
-            <div class="research-item">
-              <p>Security for ICS</p>
-              <img
-                src="./assets/photo_index/security_for_ics.webp"
-                alt="Security for ICS"
-              />
-            </div>
-            <div class="research-item">
-              <p>Wireless Sensor Networks</p>
-              <img
-                src="./assets/photo_index/wireless_network.webp"
-                alt="Wireless Sensor Networks"
-              />
-            </div>
-            <div class="research-item">
-              <p>Critical Infrastructure Protection</p>
-              <img
-                src="./assets/photo_index/ci_protection.webp"
-                alt="Critical Infrastructure Protection"
-              />
-            </div>
+            <button class="more-info" onclick="navigateTo('./about.html')">
+              More Info.
+            </button>
           </div>
-          <button class="more-info" onclick="navigateTo('./about.html')">
-            More Info.
-          </button>
         </div>
       </section>
 
       <section class="news">
-        <h2>News</h2>
-        <div class="news-grid">
-          <div class="news-item">
-            <p class="day">June 16 2024</p>
-            <h1>Employment!</h1>
-            <p>Dahoon Jeong start a new career at SAMSUNG. Congratulations!</p>
-          </div>
-          <div class="news-item">
-            <img src="./assets/photo_index/graduation.png" alt="Graduation" />
-            <p class="day">Feb 16 2024</p>
-            <h1>Graduation!</h1>
-            <p>Dahoon Jeong and Minhoon Seo are graduating. Congratulations!</p>
+        <div class="row">
+          <h2>News</h2>
+          <div class="news-grid">
+            <div class="news-item">
+              <p class="day">June 16 2024</p>
+              <h1>Employment!</h1>
+              <p>
+                Dahoon Jeong start a new career at SAMSUNG. Congratulations!
+              </p>
+            </div>
+            <div class="news-item">
+              <img src="./assets/photo_index/graduation.png" alt="Graduation" />
+              <p class="day">Feb 16 2024</p>
+              <h1>Graduation!</h1>
+              <p>
+                Dahoon Jeong and Minhoon Seo are graduating. Congratulations!
+              </p>
+            </div>
           </div>
         </div>
       </section>
@@ -82,7 +87,7 @@
 
     <footer>
       <p>
-        © 2024 Computational Theory And Application Lab. All Rights Reserved
+        © 2024 Computational Theory and Application Lab. All Rights Reserved
       </p>
     </footer>
 

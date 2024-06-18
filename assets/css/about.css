@@ -2,6 +2,11 @@ main {
   max-width: 1048px;
   margin: 0 auto;
 }
+main .container {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
 
 main .container .research_header {
   margin-bottom: 40px;
