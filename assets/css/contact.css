@@ -1,49 +1,52 @@
 main {
-  max-width: 1048px;
-  margin: 0 auto;
+    max-width: 1048px;
+    margin: 0 auto;
+}
+main .container {
+    padding: 0 20px;
 }
 
 h1 {
-  font-size: 10vw;
-  font-weight: 200;
-  margin: 0;
-  padding: 0;
-  margin-top: 10vh;
+    font-size: 10vw;
+    font-weight: 200;
+    margin: 0;
+    padding: 0;
+    margin-top: 10vh;
 }
 
 p {
-  font-size: 14px;
+    font-size: 14px;
 }
 
 .contact-icon {
-  margin-top: 40px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start; /* Aligns the items to the start of the container */
-  gap: 10px; /* Adds some space between the items */
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Aligns the items to the start of the container */
+    gap: 10px; /* Adds some space between the items */
 }
 
 .contact-icon a {
-  display: block; /* Ensures each link takes up the full width and appears on its own line */
-  font-size: 14px; /* Sets a comfortable font size */
-  color: #000; /* Sets the text color */
-  text-decoration: none; /* Removes the default underline from the links */
+    display: block; /* Ensures each link takes up the full width and appears on its own line */
+    font-size: 14px; /* Sets a comfortable font size */
+    color: #000; /* Sets the text color */
+    text-decoration: none; /* Removes the default underline from the links */
 }
 
 .contact-icon a i {
-  margin-right: 8px; /* Adds some space between the icon and the text */
+    margin-right: 8px; /* Adds some space between the icon and the text */
 }
 
 .contact-icon a:hover {
-  text-decoration: underline; /* Optionally adds underline on hover */
+    text-decoration: underline; /* Optionally adds underline on hover */
 }
 
 @media screen and (max-width: 767px) {
-  main .container {
-    padding: 0 20px;
-  }
+    main .container {
+        padding: 0 20px;
+    }
 
-  main .container h1 {
-    font-size: 20vw;
-  }
+    main .container h1 {
+        font-size: 20vw;
+    }
 }
