@@ -1,6 +1,18 @@
 {
   "2024": [
     {
+      "name": "허원제",
+      "date": "2024.07.05",
+      "paper": "An Improved Histogram-Shifting-Imitated reversible data hiding based on HVS characteristics",
+      "link": "https://link.springer.com/article/10.1007/s11042-017-4960-y"
+    },
+    {
+      "name": "채척",
+      "date": "2024.07.05",
+      "paper": "Efficient Steganographic Embedding by Exploiting Modification Direction",
+      "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=4020540"
+    },
+    {
       "name": "우은규",
       "date": "2024.05.24",
       "paper": "On-line Steiner Tree in the Euclidean Plane",
