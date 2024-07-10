@@ -1,10 +1,16 @@
 {
   "2024": [
     {
-      "name": "허원제",
-      "date": "2024.07.05",
-      "paper": "An Improved Histogram-Shifting-Imitated reversible data hiding based on HVS characteristics",
-      "link": "https://link.springer.com/article/10.1007/s11042-017-4960-y"
+      "name": "윤신이",
+      "date": "2024.07.12",
+      "paper": "Spectral Features for Synthetic Speech Detection",
+      "link": "https://ieeexplore.ieee.org/document/7882691"
+    },
+    {
+      "name": "우은규",
+      "date": "2024.07.12",
+      "paper": "An Efficient Branch-and-bound Algorithm for Finding a Maximum Clique with Computational Experiments",
+      "link": "https://link.springer.com/article/10.1007/s10898-006-9039-7"
     },
     {
       "name": "채척",
