@@ -1,6 +1,18 @@
 {
   "2024": [
     {
+      "name": "강승수",
+      "date": "2024.07.19",
+      "paper": "Tighter bounds on the minimum broadcast time",
+      "link": "https://www.sciencedirect.com/science/article/pii/S157252862400001X"
+    },
+    {
+      "name": "김유신",
+      "date": "2024.07.19",
+      "paper": "MLP-Mixer: An all-MLP Architecture for Vision",
+      "link": "https://proceedings.neurips.cc/paper/2021/hash/cba0a4ee5ccd02fda0fe3f9a3e7b89fe-Abstract.html"
+    },
+    {
       "name": "윤신이",
       "date": "2024.07.12",
       "paper": "Spectral Features for Synthetic Speech Detection",
