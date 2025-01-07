@@ -58,8 +58,8 @@
       "other": "."
     },
     {
-      "name": "한슬",
-      "name_eng": "Seul Han",
+      "name": "최한슬",
+      "name_eng": "Hanseul Choi",
       "other": "."
     },
     {
@@ -108,6 +108,12 @@
     {
       "name": "강승수",
       "name_eng": "Seungsu Kang",
+      "position": "Research Intern",
+      "current": ""
+    },
+    {
+      "name": "손준석",
+      "name_eng": "Junseok Son",
       "position": "Research Intern",
       "current": ""
     }
