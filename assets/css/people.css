@@ -6,14 +6,15 @@ main {
 
 /* Styling for each section of people (professor, PhD, MS, etc.) */
 main .container .people_box {
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
 /* Section headers */
 main .container .people_box h1 {
   font-size: 20px;
-  font-weight: 400;
+  font-weight: bold;
   margin-bottom: 10px;
+  border-bottom: 1px solid;
 }
 
 main .container .people_box .person {
@@ -48,6 +49,7 @@ main .container .people_box .person img {
   text-decoration: none;
   margin: 0;
   padding: 0;
+  color: black;
 }
 
 .person-info a:hover {

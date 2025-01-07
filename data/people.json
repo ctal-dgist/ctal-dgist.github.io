@@ -58,14 +58,13 @@
       "other": "."
     },
     {
-      "name": "김나현",
-      "name_eng": "Nahyeon Kim",
+      "name": "한슬",
+      "name_eng": "Seul Han",
       "other": "."
     },
     {
-      "name": "강승수",
-      "name_eng": "Seungsu Kang",
-      "photo": "Seungsu_Kang.jpg",
+      "name": "성민승",
+      "name_eng": "Minseung Seong",
       "other": "."
     }
   ],
@@ -97,6 +96,18 @@
     {
       "name": "곽민준",
       "name_eng": "Minjun Kwak",
+      "position": "Research Intern",
+      "current": ""
+    },
+    {
+      "name": "김나현",
+      "name_eng": "Nahyeon Kim",
+      "position": "Research Intern",
+      "current": ""
+    },
+    {
+      "name": "강승수",
+      "name_eng": "Seungsu Kang",
       "position": "Research Intern",
       "current": ""
     }
