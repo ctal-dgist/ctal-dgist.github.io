@@ -1,4 +1,12 @@
 {
+  "2025": [
+    {
+      "name": "허원제",
+      "date": "2025.02.20",
+      "paper": "ANDVI: Automated Network Device and Vulnerability Identification in SCADA/ICS by Passive Monitoring",
+      "link": "https://ieeexplore.ieee.org/document/10399873"
+    }
+  ],
   "2024": [
     {
       "name": "김유신",
